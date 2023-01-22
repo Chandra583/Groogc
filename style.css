@@ -535,7 +535,24 @@ section{
 
 
 
+footer{
+    background:#fff;
+}
 
+
+footer .credit{
+    text-align: center;
+    /* margin-top: 2rem; */
+    padding:1rem;
+    padding: 2.5rem 0 2.5rem 0;
+    font-size: 1.5rem;
+    color:var(--black);
+    border-top: var(--border);
+}
+
+footer .credit span{
+    color:var(--orange);
+}
 
 
 
