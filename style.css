@@ -541,10 +541,12 @@ footer{
 
 
 footer .credit{
+    background:#fff;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    /* margin-top: 2rem; */
-    padding:1rem;
-    padding: 2.5rem 0 2.5rem 0;
+       padding:1rem;
+   
     font-size: 1.5rem;
     color:var(--black);
     border-top: var(--border);
@@ -552,8 +554,26 @@ footer .credit{
 
 footer .credit span{
     color:var(--orange);
+   
 }
 
+footer #footer-icon{
+    display: flex;
+    justify-content: space-around;
+    background:#fff;
+    width: 100%;
+ position: absolute; 
+    justify-content: center;
+   
+    
+}
+
+
+footer #social-icons1{
+    position: absolute;
+    /* top: 30%; */
+    bottom: 40%;
+}
 
 
 
@@ -628,6 +648,13 @@ footer .credit span{
 
     .footer .box-container .box .payment-img{
         margin: 2rem auto;
+    }
+
+    footer #social-icons1{
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+
     }
 
 }
